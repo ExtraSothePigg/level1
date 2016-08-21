@@ -1,0 +1,11 @@
+
+public class driver {
+public static void main(String[] args){
+	
+	Robot name1 = new Robot();
+	Robot name2 = new Robot();
+	Robot name420 = new Robot();
+	
+	System.out.println("name");
+	}
+}

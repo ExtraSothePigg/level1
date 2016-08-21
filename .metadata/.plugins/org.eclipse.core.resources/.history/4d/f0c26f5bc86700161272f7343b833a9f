@@ -1,0 +1,24 @@
+
+public class Robot {
+	
+	public class robot{
+		int numberOfWheels;
+		Knife knife;
+		String name;
+		boolean isEvil;
+		
+		public robot(){
+			numberOfWheels = 8;
+			knife = new Knife();
+			name = "zero";
+			isEvil = false;
+		}
+	}
+	class Knife{
+		double sharpness;
+		public Knife(){
+			sharpness = 0.99;
+		}
+	}
+	
+}
